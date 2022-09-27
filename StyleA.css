@@ -1,4 +1,6 @@
 *{
+  
+    font-family: 'Roboto', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-color: red;
 }
@@ -10,13 +12,41 @@
 }
 
 .cardla{
-    
+    width: 300px;
+    height: 350px;
+    border-radius: 15%;
+    float: left;
+    background-color: blanchedalmond;
+    margin: 50px 50px 0px 35px;
+    padding: auto;
 }
 
 .cardmal{
-
+    width: 300px;
+    height:350px;
+    border-radius: 15%;
+    float:left;
+    background-color: blanchedalmond;
+    margin: 50px 50px 0px 35px;
+    padding: auto;
 }
 
 .cardmt{
-    
+    width: 300px;
+    height: 350px;
+    border-radius: 15%;
+    background-color: blanchedalmond;
+    float:left;
+    margin: 50px 50px 0px 35px;
+    padding:auto;
 }
+
+.LA{
+  width: fit-content;
+}
+
+.MTM{
+    width: fit-content;
+    height: fit-content;
+}
+
