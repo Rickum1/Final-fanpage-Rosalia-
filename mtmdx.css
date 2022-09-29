@@ -3,12 +3,12 @@
 }
 
 body{
-    background-color: #FEC7C2;
+    background-color: #E5BFC6;
     text-align: center;
     align-items: center;
     align-tracks: center;
     align-content: center;
-    color:#B3860F;
+    color:#E83D42;
 }
 
 audio{
@@ -16,7 +16,7 @@ audio{
 }
 
 img{
-    width: 50%;
+    width: 65%;
     height: 50%;
 }
 
