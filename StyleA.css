@@ -1,14 +1,13 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-.navbar{
+.Back{
     background-color: #B71C1C;
-    overflow: hidden;
     text-decoration: none;
     font-size: 22px;
+    text-align: center;
 }
 #linkh{
-    margin-left: 20px;
     color: black;
     text-decoration: none;
 }
@@ -96,6 +95,6 @@ hr{
         width: 75%;
         height: 75%;
     }
-    
+       
 }
 
