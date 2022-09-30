@@ -38,6 +38,10 @@ hr{
     text-align: center;
     color: #51081B;
     font-size: 16px;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
+}
+.cardla:hover{
+    box-shadow: 6px 8px rgba(86, 85, 85, 0.586)
 }
 
 
@@ -52,8 +56,11 @@ hr{
     text-align: center;
     color: #B3860F;
     font-size: 16px;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
 }
-
+.cardmal:hover{ 
+    box-shadow: 6px 8px rgba(36, 244, 202, 0.493);
+}
 .cardmt{
     width: 300px;
     height: 350px;
@@ -65,8 +72,11 @@ hr{
     text-align: center;
     color: #191919;
     font-size: 16px;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
 }
-
+.cardmt:hover{
+    box-shadow: 6px 8px rgba(227, 0, 0, 0.53);
+}
 .cardla, .cardmal, .cardmt{
     flex-flow: row wrap;    
 }
