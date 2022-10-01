@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #E5BFC6;
+    background-color: #C6B79B;
     text-align: center;
     align-items: center;
     align-tracks: center;
@@ -37,8 +37,16 @@ h3{
     font-size: 40px;
 }
 
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
+
 .Back{
-    background-color: #B71C1C;
+    background-color: #BA0F30;
     text-decoration: none;
     font-size: 22px;
     text-align: center;
@@ -49,6 +57,14 @@ h3{
 }
 #linkh:hover{
     background-color:#ff7673 ;
+}
+footer{
+    background-color: #BA0F30;
+    text-align: center;
+    color: black;
+    position: absolute;
+    left: 0%;
+    right: 0%;
 }
 @media only screen and (max-width: 750px) {
     audio{

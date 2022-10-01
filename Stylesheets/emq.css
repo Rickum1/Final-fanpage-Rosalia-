@@ -3,12 +3,12 @@
 }
 
 body{
-    background-color: #9B9594 ;
+    background-color: #FEC7C2;
     text-align: center;
     align-items: center;
     align-tracks: center;
     align-content: center;
-    color:#51081B;
+    color:#B3860F;
 }
 
 audio{
@@ -17,7 +17,7 @@ audio{
 
 img{
     width: 50%;
-    height: 40%;
+    height: 50%;
 }
 
 #hr1{
@@ -37,10 +37,18 @@ h3{
     font-size: 40px;
 }
 
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+}
 .Back{
-    background-color: #F1E6E5;
+    background-color:#BFC9C7;
     text-decoration: none;
     font-size: 22px;
+    text-align: center;
 }
 #linkh{
     color: black;
@@ -49,16 +57,23 @@ h3{
 #linkh:hover{
     background-color:#ff7673 ;
 }
-
-@media only screen and (max-width: 750px) {
-   audio{
-    width: 50%;
-
-   }
+footer{
+    background-color: #BFC9C7;
+    text-align: center;
+    color: black;
+    position: absolute;
+    left: 0%;
+    right: 0%;
 }
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 750px) {
     audio{
-     width: 80%;
+     width: 50%;
  
     }
  }
+ @media only screen and (max-width: 410px) {
+     audio{
+      width: 80%;
+  
+     }
+}

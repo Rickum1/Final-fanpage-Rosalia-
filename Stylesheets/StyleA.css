@@ -2,9 +2,14 @@
     font-family: 'Poppins', sans-serif;
 }
 .Back{
-    background-color: #B71C1C;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right:0%;
+    width: 100%;
+    background-color: #F7BEC0;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 21px;
     text-align: center;
 }
 #linkh{
@@ -12,7 +17,7 @@
     text-decoration: none;
 }
 #linkh:hover{
-    background-color:#ff7673 ;
+    background-color:#E7625F;
 }
 .navbar-r{
     float: right;
@@ -20,7 +25,9 @@
 }
 
 body{
-    background-color:#ff3936;
+    width: 100%;
+    background-color: #E9EAE0;
+   
 }
 
 hr{
@@ -29,15 +36,24 @@ hr{
     color: black;
 }
 
+.container{
+    width: 100%;
+    max-width: 1400px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    margin: auto;
+}
+
 .cardla{
     width: 300px;
-    height: 350px;
     border-radius: 15%;
-    float: left;
     background-color: #404040;
-    margin: 12.5% 6.5% 0% 7.5%;
-    padding: auto;
     text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
     color: #51081B;
     font-size: 16px;
     box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
@@ -49,13 +65,12 @@ hr{
 
 .cardmal{
     width: 300px;
-    height: 350px;
     border-radius: 15%;
-    float:left;
-    background-color: #e8e8e8;
-    margin: 12.5% 6.5% 0% 5%;
-    padding: auto;
+    background-color: #d9d9d9;
     text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
     color: #B3860F;
     font-size: 16px;
     box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
@@ -65,13 +80,12 @@ hr{
 }
 .cardmt{
     width: 300px;
-    height: 350px;
     border-radius: 15%;
     background-color: #D61D2B;
-    float:left;
-    margin: 12.5% 5.5% 0% .5%;
-    padding:auto;
     text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
     color: #191919;
     font-size: 16px;
     box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
@@ -100,6 +114,14 @@ hr{
     margin: center;
     max-width: 80%;
     border-radius: 50%;
+}
+
+footer{
+    background-color: #C85250;
+    text-align: center;
+    bottom: 0%;
+    width: 100%;
+    position: absolute;
 }
 
 @media only screen and (max-width: 400px) {
