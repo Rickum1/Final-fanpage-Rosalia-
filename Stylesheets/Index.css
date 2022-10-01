@@ -59,7 +59,6 @@ header{
     margin-right: 50px;
     margin: 0% 0% 0% 0%;
     padding: 0%;
-    background-color: #F7BEC0;
 }
 
 #link{
@@ -97,25 +96,9 @@ header{
     width: 35%;
     height: 100%;
     clear: both;  
-    z-index: 100;  
 }
 
-.button{
-    background-color: red;
-    border-radius: 10px;
-    color: white;
-    padding: 20px 25px;
-    text-align: center;    
-    display: inline-block;
-    font-size: 25px;
-    cursor: pointer;
-    box-shadow: 0 8px 12px rgba(0,0,0,0.2);
-}
-.button:hover{
-    box-shadow: 0 12px 16px red;
-}
-
-#info, #career{
+#info{
     background-color: #C85250;
     color: #E9EAE0;
 } 
