@@ -56,7 +56,6 @@ header{
 
 .navbar-r{
     float: right;
-    background-color: #F7BEC0;
     margin-right: 50px;
     margin: 0% 0% 0% 0%;
     padding: 0%;
@@ -70,23 +69,17 @@ header{
 #link:hover, #linkh:hover{
     background-color:#E7625F ;
 }
-
-#linkactive{
-    margin-left: 20px;
-    background-color:#df615f ; 
-    color: black;
-    text-decoration: none;
-}
-
 #linkh{
     margin-left: 20px;
     color: black;
     text-decoration: none;
 }
-#career{
-    background-color: #C85250;
-    color: #E9EAE0;
-} 
+#linkactive{
+    background-color:#df615f ; 
+    color: black;
+    text-decoration: none;
+    
+}
 .banner{
     width: 100%;
     height: 400px;
@@ -110,6 +103,10 @@ header{
     clear: both;  
 }
 
+#info{
+    background-color: #C85250;
+    color: #E9EAE0;
+} 
 
 @media only screen and (max-width: 600px) {
     .InfoContainer{

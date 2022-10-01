@@ -26,7 +26,7 @@
 
 body{
     width: 100%;
-    background-color: #E9EAE0;
+    background-color: #fafdd3;
    
 }
 
@@ -119,9 +119,15 @@ hr{
 footer{
     background-color: #C85250;
     text-align: center;
-    bottom: 0%;
     width: 100%;
     position: absolute;
+}
+
+@media only screen and (min-width: 900px) {
+    footer{
+        bottom:  0%;
+    }
+       
 }
 
 @media only screen and (max-width: 400px) {
