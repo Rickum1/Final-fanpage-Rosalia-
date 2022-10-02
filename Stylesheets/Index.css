@@ -2,39 +2,117 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.formcontainer{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    background: rgb(124,22,255);
+    background: linear-gradient(139deg, rgba(124,22,255,1) 14%, rgba(156,2,196,1) 36%, rgb(248, 51, 51) 70%);
+    width: 50%;
+    height: 75%;
+    border-radius: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
+}
+.formcontainer:hover{
+    box-shadow: 6px 8px rgba(0, 0, 0, 0.2);
+}
+hr{
+    width: 90%;
+    border-style: outset;
+    border-width: 5px;
+    color: black;
+}
+
+textarea{
+    resize: none;
+}
+#reset{
+    width: 25%;
+}
+input{
+    width: 40%;
+    height: 40%;
+
+}
+select{
+    width:50%;
+}
+form{
+    
+    padding: 1%;
+    font-size: 35px;
+}
+
 .Container{
     width: 100%;
-    height: 450px;
+    max-width: 1400px;
+    min-height: 350px;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center ;
+    margin: auto;
 }
 .card1, .card2, .card3{
+    flex-flow: column wrap;  
+}
+.card1{
     background-color: rgb(198, 108, 108);
-    padding: 1%;
-    width: 450px;
-    height: 340px;
+    width: 30%;
+    height: 80%;
     border-radius:20px;
-    margin-top: auto;
+    margin-top: 10%;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
 }
-.card1{
-    position: relative;
+.card1:hover{
+    box-shadow: 6px 8px rgba(86, 85, 85, 0.586)
 }
 .card2{
     background-color: #c36160;
-    position: relative;
+    width: 30%;
+    height: 80%;
+    border-radius:20px;
+    margin-top: 10%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
+}
+.card2:hover{
+    box-shadow: 6px 8px rgba(86, 85, 85, 0.586)
 }
 .card3{
     background-color: #b84e4d;
-    position: relative;
+    width: 30%;
+    height: 80%;
+    border-radius:20px;
+    margin-top: 10%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 4px 6px rgba(0, 0, 0, 0.2);
+}
+.card3:hover{
+    box-shadow: 6px 8px rgba(86, 85, 85, 0.586)
+}
+
+#imagenes{
+    width: 90%;
+    height: 75%;
+    border-radius: 10%;
 }
 
 body{
-    background-color: #E9EAE0;
+    width: 100%;
+    background-color: #b7b99e;
 }
 footer{
     background-color: #C85250;
@@ -75,7 +153,8 @@ header{
 
 .navbar-r{
     float: right;
-    margin-right: 50px;
+    background-color: #F7BEC0;
+    margin-right: 20px;
     margin-top: auto;
     padding: 0%;
 }
@@ -121,6 +200,12 @@ header{
     background-color: #C85250;
     color: #E9EAE0;
 } 
+@media only screen and (max-width: 1100px) {
+    textarea{
+        width: 80%;
+        
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .InfoContainer{
